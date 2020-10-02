@@ -12,15 +12,53 @@ function NavBar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            <img src={require("../Images/logo.png")} alt="Code Lab" />
+            <img src={require("../Images/logo.png")} alt="Mario Rossi Band" />
           </Link>
+          <img
+            className="logomin"
+            src={require("../Images/logomenor.png")}
+            alt="Mario Rossi Band"
+          />
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+            <i className={click ? "fas fa-times" : "fas fa-bars fa-lg"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/music" className="nav-links" onClick={closeMobileMenu}>
+                Music
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/members"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Members
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/media" className="nav-links" onClick={closeMobileMenu}>
+                Media
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/Contact"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Contact
               </Link>
             </li>
           </ul>
