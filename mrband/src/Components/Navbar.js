@@ -11,7 +11,7 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <img src={require("../Images/logo.png")} alt="Mario Rossi Band" />
           </Link>
           <img
@@ -19,6 +19,13 @@ function NavBar() {
             src={require("../Images/logomenor.png")}
             alt="Mario Rossi Band"
           />
+
+          <img
+            className="subtitle"
+            src={require("../Images/old_street.png")}
+            alt="The Same Old Street"
+          />
+
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars fa-lg"} />
           </div>

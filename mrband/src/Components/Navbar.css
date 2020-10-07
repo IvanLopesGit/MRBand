@@ -1,14 +1,22 @@
+.subtitle {
+  height: 50px;
+  width: 400px;
+  color: rgba(141, 141, 141, 0.8);
+  margin-left: 370px;
+  text-decoration: underline;
+}
+
 .navbar-logo img {
   height: 75px;
 }
 
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: black;
   height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -38,7 +46,7 @@
 .nav-menu {
   display: none;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 6px;
   list-style: none;
   text-align: center;
   width: 60vw;
@@ -98,11 +106,14 @@
 }
 
 .nav-menu.active {
-  background: rgba(0, 0, 0, 80%);
   left: 0;
+  background-color: #242424;
   opacity: 1;
   transition: all 0.5s ease;
   z-index: 1;
+  background-image: url(../Images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .nav-links {
@@ -167,6 +178,32 @@
   display: none;
 }
 
+@media screen and (max-width: 1150px) {
+  .subtitle {
+    height: 40px;
+    width: 300px;
+    color: rgba(141, 141, 141, 0.8);
+    margin-left: 390px;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .subtitle {
+    height: 20px;
+    width: 150px;
+    color: rgba(141, 141, 141, 0.8);
+    margin-left: 390px;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .subtitle {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .NavbarItems {
     position: relative;
@@ -184,13 +221,14 @@
     transition: all 0.5s ease;
   }
 
-  /* .nav-menu.active {
+  .nav-menu.active {
     background: #242222;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-  } */
+    background-image: url(../Images/background.jpg);
+  }
 
   .nav-links {
     text-align: center;
