@@ -1,0 +1,289 @@
+@font-face {
+  font-family: "Rockness";
+  src: url("../Fonts/Rockness.ttf");
+}
+
+@font-face {
+  font-family: "PaulSignature";
+  src: url("../Fonts/PaulSignature.ttf");
+}
+
+.releases {
+  background: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  height: 870px;
+  justify-content: space-around;
+}
+
+.releases-title {
+  background: rgb(0, 0, 0);
+  font-size: 90px;
+  font-family: "Rockness";
+  align-self: center;
+  color: white;
+}
+
+.releases-album {
+  height: 340px;
+  width: 340px;
+}
+
+.releases-img {
+  height: 350px;
+  width: 350px;
+  margin-top: 50px;
+}
+
+.releases-track {
+  font-family: "PaulSignature";
+  color: white;
+  font-size: 24px;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.music-icon {
+  align-self: center;
+}
+
+.spotify-icon {
+  height: 65px;
+  width: 150px;
+}
+
+.deezer-icon {
+  height: 51px;
+  margin-bottom: 7px;
+  padding-right: 25px;
+}
+
+.apple-icon {
+  height: 52px;
+  width: 130px;
+  margin-left: -18px;
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 1430px) {
+  .releases-title {
+    font-size: 75px;
+  }
+
+  .releases-album {
+    height: 270px;
+    width: 270px;
+  }
+
+  .releases-img {
+    height: 280px;
+    width: 280px;
+    margin-top: 50px;
+  }
+
+  .releases-track {
+    font-family: "PaulSignature";
+    color: white;
+    font-size: 19px;
+    width: 350px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .releases {
+    height: 570px;
+  }
+
+  .releases-title {
+    font-size: 65px;
+    margin-right: 20px;
+  }
+
+  .releases-album {
+    height: 233px;
+    width: 233px;
+  }
+
+  .releases-img {
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+
+  .releases-track {
+    font-size: 14px;
+    margin-top: 17px;
+    margin-left: 15px;
+  }
+
+  .spotify-icon {
+    height: 50px;
+    width: 115px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+  }
+
+  .deezer-icon {
+    height: 39px;
+    width: 129px;
+  }
+
+  .apple-icon {
+    height: 39px;
+    width: 100px;
+    margin-left: -18px;
+    margin-bottom: 7px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .releases {
+    height: 500px;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
+
+  .releases-title {
+    font-size: 60px;
+    margin-right: 20px;
+  }
+
+  .releases-album {
+    height: 203px;
+    width: 203px;
+  }
+
+  .releases-img {
+    height: 180px;
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+
+  .releases-track {
+    font-size: 12px;
+    margin-top: 17px;
+    margin-left: 15px;
+  }
+
+  .spotify-icon {
+    height: 40px;
+    width: 95px;
+    margin-bottom: 2px;
+    margin-right: 1px;
+  }
+
+  .deezer-icon {
+    height: 31px;
+    width: 109px;
+  }
+
+  .apple-icon {
+    height: 31px;
+    width: 85px;
+    margin-left: -18px;
+    margin-bottom: 7px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .releases {
+    height: 450px;
+  }
+
+  .releases-title {
+    font-size: 65px;
+    margin-right: 20px;
+  }
+
+  .releases-album {
+    height: 210px;
+    width: 210px;
+  }
+
+  .releases-img {
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+
+  .releases-track {
+    font-size: 10px;
+    margin-top: 17px;
+    margin-left: 25px;
+  }
+
+  .spotify-icon {
+    height: 45px;
+    width: 100px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+  }
+
+  .deezer-icon {
+    height: 38px;
+    width: 116px;
+    margin-left: 7px;
+  }
+
+  .apple-icon {
+    height: 38px;
+    width: 92px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .releases {
+    height: 1420px;
+    flex-direction: column;
+  }
+
+  .releases-title {
+    font-size: 45px;
+    margin-top: 20px;
+  }
+
+  .releases-album {
+    height: 900px;
+    width: 180px;
+  }
+
+  .releases-img {
+    height: 250px;
+    width: 250px;
+    margin-left: 115px;
+  }
+
+  .releases-track {
+    font-size: 19px;
+    margin-top: 17px;
+    margin-left: 115px;
+  }
+
+  .spotify-icon {
+    height: 45px;
+    width: 100px;
+    margin-bottom: 9px;
+    margin-left: -2px;
+  }
+
+  .deezer-icon {
+    height: 36px;
+    width: 116px;
+    margin-left: 7px;
+    margin-bottom: 13px;
+  }
+
+  .apple-icon {
+    height: 38px;
+    width: 92px;
+    margin-left: -13px;
+    margin-bottom: 13px;
+  }
+}
