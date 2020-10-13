@@ -1,0 +1,46 @@
+.footer-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.footer-img {
+  height: 40px;
+  width: 205px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  padding-bottom: 20px;
+}
+
+.footer-logo {
+  color: white;
+  justify-self: start;
+  margin-left: 20px;
+  display: flex;
+  align-self: center;
+  margin-bottom: 16px;
+}
+
+.website-rights {
+  color: white;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+
+.fa-apple,
+.fa-deezer,
+.fa-spotify,
+.fa-instagram,
+.fa-youtube,
+.fa-facebook-f {
+  color: white;
+  margin-left: 9px;
+}

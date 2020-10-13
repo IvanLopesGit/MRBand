@@ -9,7 +9,7 @@ function Music() {
         <div className="intro-sub">(Official Music Video)</div>
       </div>
       <div className="intro-container">
-        <video src={require("../Video/mario.mp4")} autoPlay loop muted />
+        <video src={require("../Video/mario.mp4")} autoPlay loop />
       </div>
     </>
   );
