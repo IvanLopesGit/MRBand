@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Satisfy";
+  src: url("../../Fonts/Satisfy.ttf");
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  background: rgb(48, 48, 48);
+  height: 100vh;
+}
+
+.minus {
+  margin-left: 525px;
+  border-bottom: 2px solid white;
+  height: 30px;
+  width: 550px;
+}
+
+.contacts-img {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.contacts-img img {
+  height: 70px;
+  width: 400px;
+}
+
+.booking {
+  color: white;
+  font-size: 35px;
+  font-family: "Satisfy";
+  margin-top: 3vh;
+  text-align: center;
+}
+
+.booking-e-mail {
+  color: white;
+  font-size: 27px;
+  margin-top: 1vh;
+  text-align: center;
+}
+
+.office-title {
+  font-size: 35px;
+  font-family: "Satisfy";
+  margin-bottom: 15px;
+}
+
+.pressoffice {
+  color: white;
+  font-size: 25px;
+  /* font-family: "Satisfy"; */
+  margin-top: 3vh;
+  text-align: center;
+}
+
+.webmaster {
+  color: white;
+  font-size: 35px;
+  font-family: "Satisfy";
+  margin-top: 3vh;
+  text-align: center;
+}
+
+.webmaster-contact {
+  margin-top: -10px;
+  font-size: 25px;
+  /* font-family: "Satisfy"; */
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Satisfy";
+  src: url("../../Fonts/Satisfy.ttf");
+}
+
+.gallery {
+  background: rgb(48, 48, 48);
+  height: 132vh;
+}
+
+.g-image {
+  text-align: center;
+  padding-right: 170px;
+}
+
+.g-image img {
+  height: 240px;
+  width: 250px;
+  transition: transform 0.7s;
+  margin-left: 140px;
+  margin-top: 120px;
+  margin-bottom: -50px;
+  backface-visibility: hidden;
+}
+
+.g-image img:hover {
+  transform: scale(2.2);
+}

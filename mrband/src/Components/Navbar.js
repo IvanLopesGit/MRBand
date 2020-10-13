@@ -14,11 +14,13 @@ function NavBar() {
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <img src={require("../Images/logo.png")} alt="Mario Rossi Band" />
           </Link>
-          <img
-            className="logomin"
-            src={require("../Images/logomenor.png")}
-            alt="Mario Rossi Band"
-          />
+          <Link to="/" onClick={closeMobileMenu}>
+            <img
+              className="logomin"
+              src={require("../Images/logomenor.png")}
+              alt="Mario Rossi Band"
+            />
+          </Link>
 
           <img
             className="subtitle"
@@ -47,11 +49,20 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/members"
+                to="/theband"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Members
+                The Band
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/gallery"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Gallery
               </Link>
             </li>
             <li className="nav-item">
@@ -61,11 +72,11 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/Contact"
+                to="/Contacts"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Contact
+                Contacts
               </Link>
             </li>
           </ul>

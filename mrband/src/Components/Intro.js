@@ -5,8 +5,8 @@ function Music() {
   return (
     <>
       <div className="title">
-        <div className="music-title">Leave a Light On</div>
-        <div className="music-sub">(Official Music Video)</div>
+        <div className="intro-title">Leave a Light On</div>
+        <div className="intro-sub">(Official Music Video)</div>
       </div>
       <div className="intro-container">
         <video src={require("../Video/mario.mp4")} autoPlay loop muted />
