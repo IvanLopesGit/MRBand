@@ -52,7 +52,7 @@ export default function Media() {
             </a>
           </div>
         </div>
-        <div className="redesocial">
+        <div className="redesocial spotify">
           <div className="rede">
             <a
               rel="noopener noreferrer"
@@ -67,7 +67,7 @@ export default function Media() {
             </a>
           </div>
         </div>
-        <div className="redesocial">
+        <div className="redesocial deezer">
           <div className="rede">
             <a
               rel="noopener noreferrer"
@@ -82,7 +82,7 @@ export default function Media() {
             </a>
           </div>
         </div>
-        <div className="redesocial">
+        <div className="redesocial apple">
           <div className="rede">
             <a
               rel="noopener noreferrer"

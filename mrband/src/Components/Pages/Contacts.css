@@ -1,13 +1,11 @@
-@font-face {
-  font-family: "Satisfy";
-  src: url("../../Fonts/Satisfy.ttf");
-}
-
 .contacts {
   display: flex;
   flex-direction: column;
   background: rgb(48, 48, 48);
-  height: 88vh;
+  height: 83vh;
+  background-image: url(../../Images/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .minus {
@@ -29,43 +27,102 @@
 
 .booking {
   color: white;
-  font-size: 35px;
-  font-family: "Satisfy";
-  margin-top: 3vh;
+  font-size: 20px;
+  margin-top: 9vh;
   text-align: center;
 }
 
 .booking-e-mail {
   color: white;
-  font-size: 27px;
-  margin-top: 1vh;
+  font-size: 20px;
+  margin-top: 3vh;
   text-align: center;
 }
 
+.booking-e-mail a {
+  color: white;
+  text-decoration: none;
+}
+
 .office-title {
-  font-size: 35px;
-  font-family: "Satisfy";
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
 .pressoffice {
   color: white;
-  font-size: 25px;
-  /* font-family: "Satisfy"; */
+  font-size: 20px;
   margin-top: 3vh;
   text-align: center;
 }
 
+.pressoffice a {
+  color: white;
+  text-decoration: none;
+}
+
 .webmaster {
   color: white;
-  font-size: 35px;
-  font-family: "Satisfy";
+  font-size: 20px;
   margin-top: 3vh;
   text-align: center;
 }
 
 .webmaster-contact {
-  margin-top: -10px;
-  font-size: 25px;
-  /* font-family: "Satisfy"; */
+  margin-top: -18px;
+  font-size: 20px;
+}
+
+.webmaster-contact a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1370px) {
+  .contacts {
+    height: 94vh;
+  }
+
+  .webmaster {
+    font-size: 20px;
+    margin-top: 3vh;
+  }
+
+  .webmaster-contact {
+    margin-top: -18px;
+    font-size: 20px;
+  }
+
+  .office-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .pressoffice {
+    font-size: 20px;
+    margin-top: 3vh;
+  }
+
+  .minus {
+    margin-left: 395px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .contacts {
+    height: 590px;
+    background-repeat: repeat;
+  }
+
+  .contacts-img img {
+    height: 50px;
+    width: 250px;
+  }
+
+  .minus {
+    margin-left: 10px;
+    border-bottom: 2px solid white;
+    height: 30px;
+    width: 340px;
+  }
 }

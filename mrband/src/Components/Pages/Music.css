@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: "PaulSignature";
-  src: url("../../Fonts/PaulSignature.ttf");
+  font-family: "Sriracha";
+  src: url("../../Fonts/Sriracha.ttf");
 }
 
 .music {
@@ -15,10 +15,13 @@
   flex-wrap: wrap;
   height: 870px;
   justify-content: space-around;
+  background-image: url(../../Images/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .music-title {
-  background: rgb(0, 0, 0);
+  /* background: rgb(0, 0, 0); */
   font-size: 90px;
   font-family: "Rockness";
   align-self: center;
@@ -26,20 +29,20 @@
 }
 
 .music-album {
-  height: 840px;
+  height: 340px;
   width: 340px;
 }
 
 .music-img {
   height: 350px;
   width: 350px;
-  margin-top: 50px;
+  margin-top: -200px;
 }
 
 .music-track {
-  font-family: "PaulSignature";
+  font-family: "Sriracha";
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   width: 350px;
   margin-top: 20px;
 }
@@ -67,27 +70,23 @@
 }
 
 @media screen and (max-width: 1430px) {
-  .music {
-    height: 740px;
-  }
-
   .music-title {
     font-size: 75px;
   }
 
   .music-album {
-    height: 740px;
+    height: 270px;
     width: 270px;
   }
 
   .music-img {
     height: 280px;
     width: 280px;
-    margin-top: 50px;
+    margin-top: -200px;
   }
 
   .music-track {
-    font-family: "PaulSignature";
+    font-family: "Sriracha";
     color: white;
     font-size: 19px;
     width: 350px;
@@ -95,9 +94,23 @@
   }
 }
 
+@media screen and (max-width: 1370px) {
+  .music-title {
+    font-size: 70px;
+  }
+
+  .music-track {
+    font-size: 16px;
+  }
+
+  .music {
+    height: 840px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .music {
-    height: 540px;
+    height: 570px;
   }
 
   .music-title {
@@ -106,14 +119,14 @@
   }
 
   .music-album {
-    height: 540px;
+    height: 233px;
     width: 233px;
   }
 
   .music-img {
     height: 200px;
     width: 200px;
-    margin-top: 30px;
+    margin-top: -200px;
     margin-left: 15px;
   }
 
@@ -145,7 +158,9 @@
 
 @media screen and (max-width: 990px) {
   .music {
-    height: 540px;
+    height: 500px;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
   }
 
   .music-title {
@@ -154,14 +169,14 @@
   }
 
   .music-album {
-    height: 500px;
+    height: 203px;
     width: 203px;
   }
 
   .music-img {
     height: 180px;
     width: 180px;
-    margin-top: 30px;
+    margin-top: -200px;
     margin-left: 15px;
   }
 
@@ -191,32 +206,10 @@
   }
 }
 
-@media screen and (max-width: 895px) {
-  .music-album {
-    width: 215px;
-  }
-}
-
-@media screen and (max-width: 885px) {
-  .music-album {
-    width: 225px;
-  }
-}
-
-@media screen and (max-width: 876px) {
-  .music {
-    height: 540px;
-  }
-
-  .music-album {
-    height: 500px;
-    width: 224px;
-  }
-}
-
 @media screen and (max-width: 720px) {
   .music {
-    height: 540px;
+    height: 1420px;
+    flex-direction: column;
   }
 
   .music-title {
@@ -225,21 +218,20 @@
   }
 
   .music-album {
-    height: 500px;
-    width: 120px;
+    height: 900px;
+    width: 180px;
   }
 
   .music-img {
-    height: 200px;
-    width: 200px;
-    margin-left: -105px;
+    height: 250px;
+    width: 250px;
+    margin-left: 215px;
   }
 
   .music-track {
-    font-size: 15px;
+    font-size: 19px;
     margin-top: 17px;
-    text-align: center;
-    margin-left: -235px;
+    margin-left: 215px;
   }
 
   .spotify-icon {
@@ -311,5 +303,35 @@
     width: 92px;
     margin-left: -13px;
     margin-bottom: 13px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .music-album,
+  .music-title {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  .music-img {
+    height: 200px;
+    width: 200px;
+    margin-left: -13px;
+    margin-top: 30px;
+  }
+
+  .music-track {
+    text-align: center;
+    font-size: 15px;
+    margin-left: -90px;
+  }
+
+  .music {
+    height: 1200px;
+    background-repeat: repeat;
+  }
+
+  .music-icon {
+    margin-top: 40px;
   }
 }

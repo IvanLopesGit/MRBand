@@ -4,7 +4,6 @@ import "./Releases.css";
 function Releases() {
   return (
     <div className="releases">
-      <div className="releases-title">Releases</div>
       <div className="releases-album">
         <img
           src={require("../Images/oldstreet.jpg")}

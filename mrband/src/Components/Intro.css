@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Rockness";
-  src: url("../Fonts/Rockness.ttf");
+  font-family: "";
+  src: url("../Fonts/Sriracha.ttf");
 }
 
 video {
@@ -17,6 +17,7 @@ video {
   align-items: center;
   flex-direction: column;
   object-fit: contain;
+  background-color: black;
 }
 
 .title {
@@ -27,13 +28,24 @@ video {
   color: white;
   font-size: 40px;
   text-align: center;
-  font-family: "Rockness";
+  font-family: "Sriracha";
 }
 
 .intro-sub {
   color: white;
   font-size: 25px;
   text-align: center;
-  font-family: "Rockness";
+  font-family: "Sriracha";
   margin-top: -17px;
+}
+
+@media only screen and (max-width: 360px) {
+  .intro-title {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .intro-sub {
+    font-size: 20px;
+  }
 }

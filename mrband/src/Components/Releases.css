@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: "PaulSignature";
-  src: url("../Fonts/PaulSignature.ttf");
+  font-family: "Sriracha";
+  src: url("../Fonts/Sriracha.ttf");
 }
 
 .releases {
@@ -18,7 +18,7 @@
 }
 
 .releases-title {
-  background: rgb(0, 0, 0);
+  /* background: rgb(0, 0, 0); */
   font-size: 90px;
   font-family: "Rockness";
   align-self: center;
@@ -37,9 +37,9 @@
 }
 
 .releases-track {
-  font-family: "PaulSignature";
+  font-family: "Sriracha";
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   width: 350px;
   margin-top: 20px;
 }
@@ -83,11 +83,25 @@
   }
 
   .releases-track {
-    font-family: "PaulSignature";
+    font-family: "Sriracha";
     color: white;
     font-size: 19px;
     width: 350px;
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .releases-title {
+    font-size: 70px;
+  }
+
+  .releases-track {
+    font-size: 16px;
+  }
+
+  .releases {
+    height: 840px;
   }
 }
 
@@ -286,5 +300,31 @@
     width: 92px;
     margin-left: -13px;
     margin-bottom: 13px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .releases-album,
+  .releases-title {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  .releases-img {
+    height: 200px;
+    width: 200px;
+    margin-left: 70px;
+    padding-top: 20px;
+  }
+
+  .releases-track {
+    margin-left: 0;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 50px;
+  }
+
+  .releases {
+    height: 1200px;
   }
 }

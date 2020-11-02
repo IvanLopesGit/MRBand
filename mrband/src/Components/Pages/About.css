@@ -3,82 +3,161 @@
   src: url("../../Fonts/Rockness.ttf");
 }
 
-.about {
+@font-face {
+  font-family: "Sriracha";
+  src: url("../../Fonts/Sriracha.ttf");
+}
+
+.about1 {
+  background-image: url(../../Images/background.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
   background: rgb(48, 48, 48);
   display: flex;
   flex-direction: row;
   /* flex-wrap: wrap; */
-  height: 1075px;
+  color: white;
+  height: 950px;
   justify-content: space-evenly;
 }
 
-.about-title {
-  background: rgb(48, 48, 48);
-  font-size: 90px;
-  font-family: "Rockness";
-  margin-right: 90px;
+.about1-text {
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 15px;
+  font-family: "Sriracha";
+  justify-items: center;
+  text-align: center;
+  margin-top: 50px;
 }
 
-.about-text {
-  font-size: 18px;
-  line-height: 28px;
-  margin-left: 15px;
+@media screen and (max-width: 1535px) {
+  .about1 {
+    height: 890px;
+  }
+
+  .about1-text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .about1 {
+    height: 885px;
+  }
+
+  .about1-text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  .about1 {
+    height: 855px;
+  }
+
+  .about1-text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .about1 {
+    height: 830px;
+  }
+
+  .about1-text {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  .about1 {
+    height: 760px;
+  }
+
+  .about1-text {
+    font-size: 18px;
+    line-height: 19px;
+  }
 }
 
 @media only screen and (max-width: 970px) {
-  .about-text {
+  .about1-text {
     font-size: 13px;
     margin-left: -100px;
     line-height: 28px;
   }
 
-  .about-title {
+  .about1-title {
     font-size: 70px;
     margin-right: 50px;
   }
 
-  .about {
+  .about1 {
     height: 1075px;
   }
 }
 
 @media only screen and (max-width: 790px) {
-  .about-title {
+  .about1-title {
     font-size: 60px;
     margin-right: 70px;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .about {
+  .about1 {
     flex-direction: column;
     height: 1095px;
   }
 
-  .about-title {
+  .about1-title {
     font-size: 40px;
     margin-top: 5px;
     margin-left: 55px;
   }
 
-  .about-text {
+  .about1-text {
     font-size: 9.3px;
     margin-left: 4px;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .about-title {
+  .about1-title {
     font-size: 30px;
     margin-right: 70px;
   }
 
-  .about-text {
+  .about1-text {
     font-size: 7px;
     margin-left: -100px;
   }
 
-  .about {
+  .about1 {
     height: 320px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .about1-text {
+    line-height: 12px;
+    margin-left: 2px;
+    font-size: 9px;
+    margin-top: -10px;
+  }
+  .about1-title {
+    font-size: 30px;
+    margin-top: -10px;
+  }
+
+  .about1 {
+    height: 490px;
+    background-repeat: repeat !important;
   }
 }

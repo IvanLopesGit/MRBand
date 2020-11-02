@@ -44,3 +44,6 @@
   color: white;
   margin-left: 9px;
 }
+
+@media only screen and (max-width: 360px) {
+}

@@ -8,6 +8,7 @@ import Music from "./Components/Pages/Music";
 import Contacts from "./Components/Pages/Contacts";
 import Media from "./Components/Pages/Media";
 import Gallery from "./Components/Pages/Gallery";
+import Clipping from "./Components/Pages/Clipping";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Contacts" component={Contacts} />
           <Route path="/Media" component={Media} />
           <Route path="/Gallery" component={Gallery} />
+          <Route path="/Clipping" component={Clipping} />
         </Switch>
       </Router>
     </>

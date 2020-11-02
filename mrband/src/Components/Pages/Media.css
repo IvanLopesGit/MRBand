@@ -1,12 +1,14 @@
 .media {
   background: rgb(48, 48, 48);
   height: 82vh;
+  background-image: url(../../Images/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .redesocial {
   position: relative;
-  margin: 0;
-  padding: 0;
+  justify-content: center;
   display: flex;
 }
 
@@ -40,7 +42,7 @@
 }
 
 .rede:hover span:nth-child(5) {
-  transform: translate(40px, -40px);
+  transform: translate(30px, -40px);
   opacity: 1;
 }
 
@@ -86,4 +88,38 @@
 
 .redesocial:nth-child(6) span {
   background: #000000;
+}
+
+@media only screen and (max-width: 360px) {
+  .media {
+    height: 490px;
+    background-repeat: repeat;
+  }
+  .redesocial {
+    margin-top: -95px;
+  }
+
+  .spotify {
+    margin-top: 110px;
+    margin-left: -275px;
+  }
+
+  .deezer {
+    margin-top: 110px;
+    margin-left: -1px;
+  }
+
+  .apple {
+    margin-top: 110px;
+    margin-left: -1px;
+  }
+
+  .rede {
+    width: 35px;
+    height: 35px;
+  }
+
+  .rede span {
+    font-size: 18px !important;
+  }
 }

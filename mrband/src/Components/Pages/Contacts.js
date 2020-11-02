@@ -13,23 +13,33 @@ export default function Contacts() {
         <div className="booking">
           Bookings, Business enquiries and
           <br /> general information, please contact:
-          <br /> <div className="booking-e-mail">mariorossiband@gmail.com</div>
+          <br />
+          <div className="booking-e-mail">
+            E-Mail:{" "}
+            <a href="mailto:mariorossiband@gmail.com">
+              mariorossiband@gmail.com
+            </a>
+          </div>
         </div>
         <div className="minus"></div>
         <div className="pressoffice">
           <div className="office-title">
             Press office Mixtape Assessoria de Comunicação
           </div>
-          E-mail: mixtapeassessoria@gmail.com
-          <br /> Whatsapp: +55 (19) 9.9609-1978
-          <br /> Facebook.com/MixtapeAssessoria
+          Whatsapp: +55 (19) 9.9609-1978
+          <br /> Facebook.com/MixtapeAssessoria <br />
+          E-mail:{" "}
+          <a href="mailto:mixtapeassessoria@gmail.com">
+            mixtapeassessoria@gmail.com
+          </a>
         </div>
         <div className="minus"></div>
         <div className="webmaster">
           Webmaster: Ivan Lopes
           <div className="webmaster-contact">
             <br /> Whatsapp: +55 (19) 9.9191-8921
-            <br /> E-mail: calintz1@hotmail.com
+            <br /> E-mail:{" "}
+            <a href="mailto:calintz1@hotmail.com">calintz1@hotmail.com</a>
           </div>
         </div>
       </div>

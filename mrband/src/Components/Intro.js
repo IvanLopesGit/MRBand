@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 import "./Intro.css";
 
 function Music() {
@@ -9,7 +10,14 @@ function Music() {
         <div className="intro-sub">(Official Music Video)</div>
       </div>
       <div className="intro-container">
-        <video src={require("../Video/mario.mp4")} autoPlay loop />
+        <ReactPlayer
+          url={require("../Video/mario.mp4")}
+          playing={true}
+          controls={true}
+          width="100%"
+          height="100%"
+          playIcon={true}
+        />
       </div>
     </>
   );

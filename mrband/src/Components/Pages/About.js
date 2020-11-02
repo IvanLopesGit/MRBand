@@ -6,8 +6,8 @@ import "./About.css";
 export default function About() {
   return (
     <>
-      <div className="about">
-        <div className="about-text">
+      <div className="about1">
+        <div className="about1-text">
           Mario Rossi is a Brazilian guitarist and singer based on São Bernardo
           do Campo
           <br /> (São Paulo State/Brazil). He has been moving forward in music

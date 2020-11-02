@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Sriracha";
+  src: url("../../Fonts/Sriracha.ttf");
+}
+
+.clipping {
+  background-image: url(../../Images/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  height: 950px;
+  justify-content: space-evenly;
+}
+
+._2020title {
+  font-size: 24px;
+  font-family: "Sriracha";
+  /* padding-bottom: 800px; */
+  text-align: center;
+}
+
+._2019title {
+  font-size: 24px;
+  font-family: "Sriracha";
+  text-align: center;
+  margin-top: 30px;
+  /* padding-bottom: 800px; */
+}
+
+._2020AudioText {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+._2020audio {
+  margin-top: 5px;
+  margin-left: 115px;
+}
+
+._2020Chicago {
+  font-size: 18px;
+  margin-top: -9px;
+  color: white;
+  text-align: center;
+}
+
+._2020Chicago a:visited {
+  color: white;
+}
+
+.decoration {
+  text-decoration: none;
+  color: white;
+}
+
+.minus1 {
+  margin-top: 15px;
+  margin-left: 52px;
+  padding: 15px;
+  border: 2px solid rgb(48, 48, 48);
+  height: 30px;
+  width: 565px;
+  background-color: rgb(48, 48, 48);
+}
+
+@media screen and (max-width: 1535px) {
+  .clipping {
+    height: 890px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .clipping {
+    height: 885px;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .clipping {
+    height: 875px;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  .clipping {
+    height: 855px;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .clipping {
+    height: 830px;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  .clipping {
+    height: 760px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .clipping {
+    height: 1150px;
+    background-repeat: repeat !important;
+  }
+
+  .minus1 {
+    margin-top: 15px;
+    margin-left: 52px;
+    padding: 15px;
+    border: 2px solid rgb(48, 48, 48);
+    height: 55px;
+    width: 250px;
+    background-color: rgb(48, 48, 48);
+  }
+
+  ._2020Chicago {
+    height: 40px;
+    margin-top: 2px;
+  }
+
+  .rockaor {
+    margin-top: -8px;
+  }
+
+  ._2020title,
+  ._2020AudioText,
+  ._2019title {
+    font-size: 18px;
+  }
+
+  ._2020audio {
+    margin-left: 5px;
+  }
+}

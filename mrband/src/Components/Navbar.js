@@ -47,15 +47,15 @@ function NavBar() {
                 Music
               </Link>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link
-                to="/theband"
+                to="/clipping"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                The Band
+                Clipping
               </Link>
-            </li> */}
+            </li>
             <li className="nav-item">
               <Link
                 to="/gallery"
