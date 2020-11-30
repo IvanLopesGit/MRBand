@@ -5,12 +5,12 @@
 
 .clipping {
   background-image: url(../../Images/background.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 100%;
   display: flex;
   flex-direction: row;
   color: white;
-  height: 950px;
+  height: 1450px;
   justify-content: space-evenly;
 }
 
@@ -37,7 +37,7 @@
 
 ._2020audio {
   margin-top: 5px;
-  margin-left: 115px;
+  margin-left: 158px;
 }
 
 ._2020Chicago {
@@ -68,43 +68,43 @@
 
 @media screen and (max-width: 1535px) {
   .clipping {
-    height: 890px;
+    height: 1390px;
   }
 }
 
 @media screen and (max-width: 1440px) {
   .clipping {
-    height: 885px;
+    height: 1385px;
   }
 }
 
 @media screen and (max-width: 1420px) {
   .clipping {
-    height: 875px;
+    height: 1375px;
   }
 }
 
 @media screen and (max-width: 1390px) {
   .clipping {
-    height: 855px;
+    height: 1385px;
   }
 }
 
 @media screen and (max-width: 1370px) {
   .clipping {
-    height: 830px;
+    height: 1380px;
   }
 }
 
 @media screen and (max-width: 1310px) {
   .clipping {
-    height: 760px;
+    height: 1370px;
   }
 }
 
 @media only screen and (max-width: 360px) {
   .clipping {
-    height: 1150px;
+    height: 1900px;
     background-repeat: repeat !important;
   }
 
@@ -116,6 +116,11 @@
     height: 55px;
     width: 250px;
     background-color: rgb(48, 48, 48);
+  }
+
+  .minus2 {
+    padding: 5px;
+    height: 75px;
   }
 
   ._2020Chicago {

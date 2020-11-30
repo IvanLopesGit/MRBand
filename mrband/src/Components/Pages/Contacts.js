@@ -35,11 +35,11 @@ export default function Contacts() {
         </div>
         <div className="minus"></div>
         <div className="webmaster">
-          Webmaster: Ivan Lopes
+          Webmaster: Zuper - Ivan Lopes
           <div className="webmaster-contact">
             <br /> Whatsapp: +55 (19) 9.9191-8921
             <br /> E-mail:{" "}
-            <a href="mailto:calintz1@hotmail.com">calintz1@hotmail.com</a>
+            <a href="mailto:falecomzuper@gmail.com">falecomzuper@gmail.com</a>
           </div>
         </div>
       </div>

@@ -12,6 +12,69 @@ export default function About() {
           <div className="_2020title">
             2020 some articles about 'The Same Old Street' album release
             <div className="_2020AudioText">
+              'Coffee' Played on Monster Radio in Lanzarote during Monster Blues
+              <br />
+              with Sunny - Canary Islands (Audio)
+            </div>
+            <div className="_2020audio">
+              <ReactPlayer
+                url={require("../../Video/Coffee_Played_on_Monster_Radio_in_Lanzarote_during_Monster_Blues_with_Sunny-Canary_Islands.mpeg")}
+                // playing={true}
+                controls={true}
+                width="350px"
+                height="60px"
+                playIcon={true}
+              />
+            </div>
+            <br />
+            <div className="_2020AudioText">
+              The songs from 'The Same Old Street Album' was also played on
+            </div>
+            <div className="minus1 minus2">
+              <div className="_2020Chicago">
+                <a
+                  className="decoration"
+                  href=" http://www.ferarock.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Radio Coteaux Ferarock and CRB - France
+                </a>
+              </div>
+            </div>
+            <div className="minus1 minus2">
+              <div className="_2020Chicago">
+                Play FM Cordoba, Conexión Urbana show - Argentina
+              </div>
+            </div>
+            <div className="minus1 minus2">
+              <div className="_2020Chicago">
+                <a
+                  className="decoration"
+                  href=" http://www.markskinradio.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  The Grey Eagle Radio Show, Minnesota - USA
+                </a>
+              </div>
+            </div>
+            <br />
+            <div className="_2020AudioText">
+              Magazines Interviews and reviews
+            </div>
+            <div className="minus1 minus2">
+              <div className="_2020Chicago">
+                Powerplay Magazine issues 235/236 - Nov and Dec 2020 - UK
+              </div>
+            </div>
+            <div className="minus1 minus2">
+              <div className="_2020Chicago">
+                Rock Hard Magazine on issues Dec 2020 and Jan 2021 - Italy
+              </div>
+            </div>
+            <br />
+            <div className="_2020AudioText">
               'The Times You Loved Me' on AR FM London, Colin Nobles Show
               (Audio)
             </div>
